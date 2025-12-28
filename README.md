@@ -1,16 +1,22 @@
-# React + Vite
+# Joke Generator – Chuck Norris Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive **Joke Generator** web app built with **React** and **Tailwind CSS**. Users can fetch **random jokes** or **category-specific jokes** (like `dev`, `food`, etc.) with a modern, sleek dark-themed UI.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live app here: [Joke Generator](https://joke-generator-lovat.vercel.app/)
 
-## React Compiler
+## 🛠️ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fetch **random jokes** or **jokes by category**  
+- Stylish dark theme with gradients and glowing UI elements  
+- Responsive and mobile-friendly design  
+- Smooth transitions and interactive buttons  
+- Easy to extend with new joke categories  
 
-## Expanding the ESLint configuration
+## 💻 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** – Frontend library  
+- **Tailwind CSS** – Styling and responsive design  
+- **JavaScript (ES6+)** – Logic and API calls  
+- **Fetch API** – Fetch jokes from an API  
